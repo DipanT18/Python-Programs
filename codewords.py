@@ -5,13 +5,14 @@ def encode_word(word):
         return word
     first, last = word[0], word[-1]
     middle = word[1:-1]
-    middle_numbers = ''
+    middle_numbers = []
     for char in middle:
         if char.isalpha():
-            middle_numbers += str(ord(char.lower()) - ord('a') + 1)
+            middle_numbers.append(str(ord(char.lower()) - ord('a') + 1))
         else:
-            middle_numbers += char  # keep non-letters as is
-    return first + middle_numbers + last
+            middle_numbers.append(char)
+    middle_str = "'".join(middle_numbers)
+    return last + middle_str + first
 
 def encode_message(message):
     return ' '.join(encode_word(w) for w in message.split())
