@@ -1,3 +1,5 @@
+#This is a secret agent codeword generator ( remember this is only code generator/encoder not a decoder)
+#Here function is used.
 import string
 
 def encode_word(word):
@@ -27,5 +29,4 @@ def main():
         code = encode_message(user)
         print("Agent:", code)
 
-if __name__ == "__main__":
-    main()
+
