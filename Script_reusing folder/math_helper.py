@@ -1,3 +1,4 @@
+#Here are some basics of arithmetic calculations wrapped in seperate functions.
 import math
 
 def calculate_circle_area(radius):
