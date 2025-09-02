@@ -358,7 +358,7 @@ We welcome contributions from developers of all skill levels! Here's how you can
 
 ### **💬 Get Help**
 - 📧 **Email:** [dipantimalsina055@gmail.com]
-- 🐦 **Twitter:** [@dipantimalsina]
+- 🐦 **Twitter:** [@DipanTimalsina]
 - 💼 **LinkedIn:** [Error occured now, available in some days]
 
 ### **🤝 Connect with Fellow Learners**
@@ -379,7 +379,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Special thanks to:
 - The Python community for continuous inspiration
-- All contributors who help improve this repository
+- All contributors who help/will help improve this repository
 - Educational institutions promoting programming literacy
 - Open source maintainers making learning accessible
 
