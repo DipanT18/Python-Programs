@@ -293,22 +293,6 @@ Python-Programs/
 
 ---
 
-## 🎖️ Achievement Badges
-
-Track your progress and earn badges as you master different concepts:
-
-<div align="center">
-
-![Python Basics](https://img.shields.io/badge/Python-Basics-green?style=for-the-badge&logo=python)
-![Loops Master](https://img.shields.io/badge/Loops-Master-blue?style=for-the-badge&logo=python)
-![Function Expert](https://img.shields.io/badge/Functions-Expert-orange?style=for-the-badge&logo=python)
-![OOP Champion](https://img.shields.io/badge/OOP-Champion-red?style=for-the-badge&logo=python)
-![Algorithm Ninja](https://img.shields.io/badge/Algorithms-Ninja-purple?style=for-the-badge&logo=python)
-
-</div>
-
----
-
 ## 🎯 Learning Milestones
 
 - [ ] **Week 1:** Complete basic syntax programs
@@ -373,10 +357,9 @@ We welcome contributions from developers of all skill levels! Here's how you can
 ## 📞 Support & Community
 
 ### **💬 Get Help**
-- 📧 **Email:** [Your Email]
-- 💬 **Discord:** Join our Python learners community
-- 🐦 **Twitter:** [@YourHandle]
-- 💼 **LinkedIn:** [Your Profile]
+- 📧 **Email:** [dipantimalsina055@gmail.com]
+- 🐦 **Twitter:** [@dipantimalsina]
+- 💼 **LinkedIn:** [Error occured now, available in some days]
 
 ### **🤝 Connect with Fellow Learners**
 - Share your projects on social media with `#PythonPrograms`
