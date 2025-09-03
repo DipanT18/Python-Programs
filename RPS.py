@@ -4,7 +4,6 @@
 
 import random
 
-
 def select_gesture():
     user_input = input("Enter rock, paper, or scissors: ")
     while user_input not in ["rock", "paper", "scissors"]:
@@ -27,10 +26,21 @@ def main():
     print(result)
 
 if __name__ == "__main__":
-    while True:
-        main()
-        print("Thanks for playing!")
-        print("Do you want to play again? (yes/no)")
-        if input().lower() != "yes":
-            print("Goodbye!")
-            break
+    print("Welcome to Rock, Paper, Scissors!")
+    permission = input("Do you want to play? (yes/no): ").strip().lower()
+    if permission != "yes":
+        print("Maybe next time. Goodbye!")
+    else:
+        while True:
+            main()
+            print("Thanks for playing!")
+            again = input("Do you want to play again? (yes/no): ").strip().lower()
+            if again == "yes":
+                continue
+            elif again == "no":
+                print("Goodbye!")
+                break
+            else:
+                print("Invalid input. Please enter 'yes' or 'no'.")
+                again = input("Do you want to play again? (yes/no): ").strip().lower()
+                
