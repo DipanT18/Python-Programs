@@ -8,11 +8,13 @@ class Dog:
     def bark(self):
         return f"{self.name} belongs to {self.breed} breed and says Woof!"
     
-dog1 = Dog("Buddy", "Golden Retriever")
-print(dog1.bark())  # Output: Buddy belongs to Golden Retriever breed and says
-# Woof!
+# Creating an instance of Dog
+dog = Dog("Buddy", "Golden Retriever")
 
 # Deleting the dog1 object
-del dog1.name
-del dog1.breed
-del dog1
+del dog.name
+del dog.breed
+del dog
+
+#Printing the object after deletion will raise an error
+print(dog.bark())  # This will raise a NameError since dog has been deleted
