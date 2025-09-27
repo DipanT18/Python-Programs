@@ -8,5 +8,5 @@ if 'application/json' in response.headers.get('content-type', ''):
     print(response.json())
 else:
     print("Response is not JSON. Content type:", response.headers.get('content-type'))
-    print("First 500 characters:")
-    print(response.text[:500])
+    print("First 10000 characters:")
+    print(response.text[:10000])
